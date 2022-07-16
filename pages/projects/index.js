@@ -12,7 +12,7 @@ export const getStaticProps = async() => {
       }
     }
 }
-export default function index(props){
+export default function Index(props){
     const [filter, setFilter] = useState("all")
 
     let webQuery = props.reposotories.filter(repo => {
