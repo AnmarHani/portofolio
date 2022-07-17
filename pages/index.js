@@ -34,6 +34,9 @@ export default function Home(props) {
           <a href="https://www.linkedin.com/in/anmar-hani-448b05224/" className={classes.text}>
             &gt; More About me
           </a>
+          <a href="/Resume-dark.pdf" className={classes.text} download>
+            &gt; Download Resume
+          </a>
         </div>
       </main>
     </div>
